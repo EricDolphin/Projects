@@ -1,0 +1,48 @@
+
+<!-- This is the cart that stores your items -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv= "X-UA-compatible" content="ie-edge">
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+	<link rel = "stylesheet" href=style.css>
+
+	<title>Shopping Cart</title>
+</head>
+<body>
+	<header>
+	    <div class = "overlay"></div>
+	    <nav>
+			<h2>SHOP</h2>
+			<ul>
+				<li><a href="main.html">Home</a></li>
+				<li class="cart">
+					<a href="cart.html">
+						<ion-icon name="basket"></ion-icon>Cart<span>0</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Layout for the shopping cart/dispalys information on items in the cart -->
+	<div class="products-container">
+		<div class="product-header">
+			<h5 class="product-title"></h5>
+			<h5 class="price"></h5>
+			<h5 class="amount"></h5>
+			<h5 class="total"></h5>
+		</div>
+			<div class="products">
+			<!-- Purchase button -->
+			</div>
+			<a href= "thanks.html">
+			<button>Purchase</button>
+			</a>
+	</div>
+	<script src="main.js"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
